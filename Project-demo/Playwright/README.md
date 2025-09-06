@@ -1,50 +1,68 @@
-Giai đoạn 1: Cơ bản (2-3 tuần)
 
-📌 Mục tiêu: Làm quen với Playwright, viết được test đơn giản.
+DEMO SITE: https://www.saucedemo.com/
 
-Học TypeScript cơ bản (variables, async/await, class, function).
+Giai đoạn 1: Nền tảng (2 tuần)
 
-Cài đặt môi trường: Node.js, VSCode, Git.
+📌 Mục tiêu: Viết test chạy được.
 
-Làm quen với Playwright:
+Cài môi trường: Node.js, VSCode, Git.
 
-Cài đặt npm init playwright@latest.
+Học TypeScript cơ bản đủ để viết test (async/await, class, function).
 
-Viết test login cơ bản.
+Playwright cơ bản:
 
-Chạy test bằng npx playwright test.
+npx playwright test
 
+Locator (getByRole, getByText, nth()).
 
-Giai đoạn 2: Nâng cao (4-6 tuần)
+Assertions (expect).
 
-📌 Mục tiêu: Viết test automation chuyên nghiệp.
+Screenshot & video.
 
-Page Object Model (POM) trong Playwright.
+🛠 Thực hành: viết 3 test case
 
-Test API bằng Playwright.
+Login đúng/sai trên saucedemo
+.
 
-Data-driven testing.
+Thêm sản phẩm vào giỏ hàng.
 
-CI/CD với GitHub Actions hoặc GitLab CI.
+Logout thành công.
 
-Báo cáo test: Allure, HTML report.
+Giai đoạn 2: Framework + Báo cáo (4 tuần)
 
-🔗 Nguồn miễn phí:
+📌 Mục tiêu: Xây dựng test framework chuyên nghiệp.
 
-Playwright Test Runner docs
+Page Object Model (POM).
 
-GitHub Actions CI/CD for Playwright
+Data-driven test (Excel/JSON).
 
-Giai đoạn 3: Dự án thực tế (2-3 tuần)
+API testing bằng Playwright (request).
 
-📌 Mục tiêu: Xây dựng portfolio để ghi vào CV.
+Báo cáo (Allure hoặc HTML report).
 
-Viết automation cho 1 trang web demo (ex: sau login → search → add to cart).
+Run test song song.
 
-Viết test regression cho nhiều màn hình.
+🛠 Thực hành:
 
-Setup CI/CD + report đẹp.
+Viết test checkout trên saucedemo.
 
-Public project trên GitHub.
+Viết test API GET/POST (fake API: https://reqres.in/
+).
 
-🔗 Demo sites: https://www.saucedemo.com/ (e-commerce demo)
+Tạo báo cáo tự động.
+
+Giai đoạn 3: CI/CD + Portfolio (4-6 tuần)
+
+📌 Mục tiêu: Có sản phẩm show trong CV.
+
+Setup CI/CD với GitHub Actions (run test khi push code).
+
+Export report (Allure/HTML) artifact.
+
+Demo project công khai trên GitHub.
+
+🛠 Thực hành:
+
+Viết 10 test case end-to-end cho saucedemo (login → add to cart → checkout → logout).
+
+Tích hợp CI/CD.
